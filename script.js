@@ -23,7 +23,7 @@ const roles = [
   'Photo Editor',
   'Web Designer',
   'Brand Designer',
-  'Grafický designér'
+  'Creative Designer'
 ];
 
 const roleSwitch = document.getElementById('roleSwitch');
@@ -84,7 +84,7 @@ const slogans=[
 "Create with purpose.","Design that speaks.","Every pixel matters.",
 "Clean visuals. Clear message.","Always improving.","Built with creativity.",
 "Student. Designer. Creator.","Turning ideas into visuals.",
-"Less noise. More meaning.","Designed by Jakub V..",
+"Less noise. More meaning.","Designed by Kubiss.",
 "Inspired by simplicity.","Modern ideas. Timeless design.",
 "Creative without limits.","Visuals with impact.","Make it memorable."
 ];
