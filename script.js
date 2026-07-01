@@ -7,23 +7,23 @@ const revealObserver = new IntersectionObserver((entries) => {
 reveals.forEach(el => revealObserver.observe(el));
 
 const quotes = [
-  'Design is thinking made visual.',
-  'Less noise, more meaning.',
-  'Create with purpose.',
-  'Good design feels effortless.',
-  'Details make the difference.',
-  'Clean visuals. Clear message.'
+  'Tvořím s myšlenkou.',
+  'Design, který zaujme.',
+  'Každý detail má svůj význam.',
+  'Jednoduchost je síla.',
+  'Vizuály, které mají smysl.',
+  'Moderní design pro moderní značky.'
 ];
 const navQuote = document.getElementById('navQuote');
 if (navQuote) navQuote.textContent = quotes[Math.floor(Math.random() * quotes.length)];
 
 const roles = [
-  'Graphic Designer',
-  'Logo Designer',
-  'Photo Editor',
-  'Web Designer',
-  'Brand Designer',
-  'Creative Designer'
+  'Grafický design',
+  'Tvorba log',
+  'Webový design',
+  'Úprava fotografií',
+  'Branding',
+  'Kreativní tvorba'
 ];
 
 const roleSwitch = document.getElementById('roleSwitch');
@@ -44,7 +44,7 @@ if (roleSwitch) {
   // This prevents the hero from feeling like it loads in two separate parts.
   setTimeout(() => {
     changeRole();
-    setInterval(changeRole, 2300);
+    setInterval(changeRole, 1800);
   }, 1100);
 }
 
@@ -81,12 +81,11 @@ window.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeLightbo
 
 
 const slogans=[
-"Create with purpose.","Design that speaks.","Every pixel matters.",
-"Clean visuals. Clear message.","Always improving.","Built with creativity.",
-"Student. Designer. Creator.","Turning ideas into visuals.",
-"Less noise. More meaning.","Designed by Kubiss.",
-"Inspired by simplicity.","Modern ideas. Timeless design.",
-"Creative without limits.","Visuals with impact.","Make it memorable."
+"Tvořím s myšlenkou.","Design, který zaujme.","Každý detail má svůj význam.",
+"Jednoduchost je síla.","Vizuály, které mají smysl.","Moderní design pro moderní značky.",
+"Od nápadu k výsledku.","Grafika, která mluví za vás.",
+"Kreativita bez hranic.","Každý projekt je nová výzva.",
+"Čistý návrh. Silný dojem.","Vizuální řešení pro značky."
 ];
 const q=document.getElementById('navQuote');
 if(q){
