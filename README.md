@@ -1,4 +1,4 @@
-# Portfolio Jakub V.
+# Portfolio Jakub Vancata
 
 Moderní osobní portfolio zaměřené na grafický design, tvorbu log, branding, úpravu fotografií a webový design.
 
