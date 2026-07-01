@@ -1,2 +1,3 @@
-# Portfolio
-Moderní pracovní portfolio prezentující mé projekty v oblasti grafického designu, webového designu a digitální tvorby.
+# work-portfolio
+
+Jakub V. portfolio website — graphic design, branding, photo editing and web design.
